@@ -1,0 +1,87 @@
+
+.movingDiv{
+border: solid 1px rgb(0, 0, 0);
+position:relative;
+margin:30px 5px;
+padding:20px 5px;
+width:80%;
+
+line-height:60px;
+}
+
+.rust-white{
+    display: block;
+   font-family: Arial, Helvetica, sans-serif;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: rgb(201, 201, 201);
+}
+
+fieldset{
+border: solid 1px #777777;
+}
+
+.required{
+background-color:#EEEE55;
+}
+
+.div3 {
+    background-color: aqua;
+    border: 1000px rebeccapurple;
+
+}
+
+/* background change cmon you already knew that */
+
+ body {background-color: rgb(44, 43, 43);
+    display:block;
+    margin:30px;
+
+}
+
+/*changing things in the line of text above item holdings*/
+
+th { 
+    background-color: salmon;
+}
+
+/* change things of currently holding items list*/
+
+tr { 
+    background-color: salmon ;
+}
+
+/*border around item adding list*/
+/*remove border-radius if you want to make the border not rounded*/
+
+div {
+
+    border: 12px solid salmon;
+    font-size: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* :hover means what happens when you hover on that button*/
+
+div :hover {
+    border-radius: 10px 10px 10px;
+    font-style: black;
+    background-color: rgb(185, 50, 50);
+    width: ;
+    height: ;
+}
+div :focus {
+    border:rgb(0, 0, 0) solid 10px 10px 10px ;
+    background-color: salmon;
+    color: rgb(0, 0, 0);
+    width: ;
+    height ;
+}
+
+
+
+

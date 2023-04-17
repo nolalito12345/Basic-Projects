@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Prototype</title>
+    <link rel="stylesheet" type="text/css" href="css/my_stylesheet.css" />
+    <script src="project.js" defer></script>
+</head>
+<body>
+    <center>
+    <header>
+      <h1 class="rust-white" align='left'><img src="rust-logo.png" align="left" style="width:50px;height:50px;">&nbsp; Investment Tracker Prototype</h1> 
+    </header>
+</center>
+
+    <br><br>
+<!-- Input For entering list item details -->
+	<div>
+
+        <h1 class="rust-white">Input Data</h1>
+         <h4><input type="text" id="name" placeholder="Item Name"></h4> 
+        <h4><input type="text" id="price" placeholder="Purchased Price"></h4> 
+        <h4><input type="text" id="quantity" placeholder="Quantity"> </h4>
+        <h4><input type="date" id="date"></h4>
+        <h5><input type="button" value="Add" onclick="addItem()"></h5>
+	</div>
+
+    <!-- HTML list of items -->
+    <br>
+    <input type='button' value='Reset All' onclick='reset_tables()'>
+
+    <br>  <br>  
+
+    <div1>
+        <h3 class="rust-white">Currently Holding:</h3>
+    </div1>
+
+    <div2>
+        <table border="1" cellpadding="1" cellspacing="1" style="width:45%;background-color:#ffffcc;border-collapse:collapse;border:1px solid black">
+            <tbody id="extable">
+                <tr>
+                    <th>Item Name</th>
+                    <th>Purchase Price</th>
+                    <th>Quantity</th>
+                    <th>Days Held</th>
+                    <th>Total Amount</th>
+                </tr>
+
+            </tbody>
+        </table>
+    </div2>
+
+    <br><br>
+
+    <div3>
+        <h3 class="rust-white">Sold Items:</h3>
+    </div3>
+
+   
+
+    <div2>
+        <table border="1" cellpadding="1" cellspacing="1" style="width:45%;background-color:#ffffcc;border-collapse:collapse;border:1px solid black">
+            <tbody id="selltable">
+                <tr id='headers'>
+                    <th>Item Name</th>
+                    <th>Purchase Price</th>
+                    <th>Quantity</th>
+                    <th>Days Held</th>
+                    <th>Total Amount</th>
+                </tr>
+            </tbody>
+        </table>
+    </div2>
+    
+    <br>
+
+    <h3 class='rust-white' id='profits'>Total profit: $0</h3>
+    <h3 class='rust-white' id='total_display'>Total Invested: $0</h3>
+
+
+
+    <br>
+    <br>
+    <footer class="rust-white"><h5>Made by Waffle :)</h5><h5>Styled by Matzx ;) </h5></footer>
+</body>
+</html>
